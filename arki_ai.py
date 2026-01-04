@@ -5,7 +5,7 @@ import google.generativeai as genai
 # Syötä aiemmasta projektistasi tuttu API-avain tähän
 API_KEY = "AIzaSyAxwY7S_3YedMvbtGRGSXu4mGte8NhWteI"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # Sovelluksen ulkoasu iPhonelle
 st.set_page_config(page_title="Arki-AI", page_icon="🍲")
