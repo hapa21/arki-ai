@@ -13,7 +13,7 @@ except KeyError:
 genai.configure(api_key=API_KEY)
 
 # Käytetään uutta julkaistua mallia
-model = genai.GenerativeModel('gemini-3-flash-preview')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Sovelluksen ulkoasu iPhonelle
 st.set_page_config(page_title="Arki-AI", page_icon="🍲")
